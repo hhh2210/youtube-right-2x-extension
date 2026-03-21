@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Right Arrow: 2× Fast-Forward",
+  "version": "1.0.0",
+  "description": "Hold the → (Right Arrow) key to play at 2× on YouTube; release to restore the original speed.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*",
+        "*://m.youtube.com/*",
+        "*://youtu.be/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}
