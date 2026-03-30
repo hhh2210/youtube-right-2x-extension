@@ -1,5 +1,8 @@
 # YouTube Right Arrow: 2× Fast-Forward
 
+[![Latest Release](https://img.shields.io/github/v/release/hhh2210/youtube-right-2x-extension?label=release)](https://github.com/hhh2210/youtube-right-2x-extension/releases/latest)
+[![License](https://img.shields.io/github/license/hhh2210/youtube-right-2x-extension)](./LICENSE)
+
 English | 中文
 
 Hold the `Right Arrow` key on YouTube to temporarily play at `2×`, then release to restore the previous speed.  
@@ -14,6 +17,16 @@ This repository includes both:
 - 轻量级 Chrome / Chromium 扩展
 - 可用于 Tampermonkey 等脚本管理器的 userscript 版本
 - 位于 [`safari/`](./safari) 目录下的 Safari Web Extension Xcode 工程
+
+## Downloads | 下载
+
+- [Latest Release](https://github.com/hhh2210/youtube-right-2x-extension/releases/latest)
+- [Chromium Package](https://github.com/hhh2210/youtube-right-2x-extension/releases/latest/download/youtube-right-2x-extension-chromium-v1.0.0.zip): unpack and load in Chrome / Edge / Brave / Arc
+- [Safari Project Package](https://github.com/hhh2210/youtube-right-2x-extension/releases/latest/download/youtube-right-2x-extension-safari-project-v1.0.0.zip): unzip and open in Xcode
+
+- [最新 Release](https://github.com/hhh2210/youtube-right-2x-extension/releases/latest)
+- [Chromium 下载包](https://github.com/hhh2210/youtube-right-2x-extension/releases/latest/download/youtube-right-2x-extension-chromium-v1.0.0.zip)：解压后可在 Chrome / Edge / Brave / Arc 中加载
+- [Safari 工程包](https://github.com/hhh2210/youtube-right-2x-extension/releases/latest/download/youtube-right-2x-extension-safari-project-v1.0.0.zip)：解压后可直接用 Xcode 打开
 
 ## Repository Layout | 仓库结构
 
