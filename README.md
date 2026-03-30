@@ -8,10 +8,24 @@ Hold the `Right Arrow` key on YouTube to temporarily play at `2×`, then release
 This repository includes both:
 - a lightweight Chrome / Chromium extension
 - a userscript for Tampermonkey and similar managers
+- a Safari Web Extension Xcode project under [`safari/`](./safari)
 
 这个仓库同时提供：
 - 轻量级 Chrome / Chromium 扩展
 - 可用于 Tampermonkey 等脚本管理器的 userscript 版本
+- 位于 [`safari/`](./safari) 目录下的 Safari Web Extension Xcode 工程
+
+## Repository Layout | 仓库结构
+
+- [`manifest.json`](./manifest.json): Chromium / MV3 extension entry
+- [`content.js`](./content.js): shared core behavior
+- [`youtube-right-2x.user.js`](./youtube-right-2x.user.js): userscript version
+- [`safari/`](./safari): Safari Web Extension Xcode project
+
+- [`manifest.json`](./manifest.json)：Chromium / MV3 扩展入口
+- [`content.js`](./content.js)：共享核心逻辑
+- [`youtube-right-2x.user.js`](./youtube-right-2x.user.js)：用户脚本版本
+- [`safari/`](./safari)：Safari Web Extension Xcode 工程
 
 ## Features | 功能
 
@@ -87,16 +101,16 @@ Safari 不能像 Chrome 一样直接加载这个目录，但可以通过 Xcode �
 If you want to run this in Safari:
 
 1. Install Xcode.
-2. Run `xcrun safari-web-extension-converter <path-to-this-repo>`.
-3. Open the generated Xcode project.
+2. Open [`safari/README.md`](./safari/README.md).
+3. Open the Xcode project under [`safari/YouTube Right Arrow 2x Safari/`](./safari/YouTube%20Right%20Arrow%202x%20Safari/).
 4. Build and run the macOS host app.
 5. In Safari, go to `Settings -> Extensions` and enable the extension.
 
 如果你想在 Safari 里使用：
 
 1. 安装 Xcode。
-2. 运行 `xcrun safari-web-extension-converter <仓库路径>`。
-3. 打开生成的 Xcode 工程。
+2. 打开 [`safari/README.md`](./safari/README.md)。
+3. 打开 [`safari/YouTube Right Arrow 2x Safari/`](./safari/YouTube%20Right%20Arrow%202x%20Safari/) 里的 Xcode 工程。
 4. 构建并运行 macOS 宿主 App。
 5. 在 Safari 中打开 `设置 -> 扩展`，启用该扩展。
 

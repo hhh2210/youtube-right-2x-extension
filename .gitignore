@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# Node / test artifacts
+node_modules/
+coverage/
